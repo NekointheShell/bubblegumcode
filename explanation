@@ -1,0 +1,53 @@
+line 100:
+    set memory at location 0 to value 0
+    set memory at $ca00 to value 0
+    set cursor color to white and background color to black
+    clears the screen
+
+line 105:
+    moves the cursor to 8,19 (screens are grids it may be near center)
+    prints something in japanese
+
+line 110:
+    jump to line 750, if reaches end of program, come back here
+
+line 120:
+    jump to line 500, if reaches end of program, come back here
+
+line 130:
+    variable st = 1
+    variable sc = 0
+    variable jr = 1
+    variable g = 3
+
+line 140:
+    moves the cursor to the start of the screen
+    print 20 blank lines
+
+line 150:
+    set cursor color to white and background color to black
+
+line 160:
+    prints "TOP", then whatever's in the HS variable, tabs over to the 12 space, prints "SCORE", then whatever's in the SC variable, then tabs
+
+line 165:
+    comments 00000000... # this is meaningless
+
+line 170:
+    variable s = 300
+    variable x = 15
+    variable m = $20
+    sets background color to brown
+    moves cursor to what's set in variable x, which is 15
+
+line 180:
+    moves cursor to 12,10
+    sets cursor color to white
+    prints "stage" followed by whatever's in the ST variable
+
+line 190:
+    counts to 2000 (depending on speed of computer, this could be a specific number of seconds)
+
+line 200:
+    moves cursor to 12:20
+    prints 18 spaces
